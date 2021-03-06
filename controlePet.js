@@ -11,7 +11,7 @@ const ctrlPet = [{
     message: 'O que você quer fazer ?',
     choices: [{name: 'Cadastrar novo pet', value: 0},
               {name: 'Listar todos os pets cadastrados', value: 1},
-              {name: 'Buscar pet por nome', value: 2}]
+              {name: 'Buscar dados do pet por nome', value: 2}]
 }];
 
 //Cadastrar
