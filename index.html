@@ -8,9 +8,17 @@
 
     <body>
         <h1>Controle do petshop</h1>
-        
-        <h2>O que você deseja fazer</h2>
+
+        <!-- Formulário da página -->
         <form>
+            <label for='name'>Nome: </label>
+            <input type='text' id='name' required/><br/><br/>
+
+            <label for='password'>Senha: </label>
+            <input type='password' id='password' required/><br/><br/>
+
+            <h2>O que você deseja fazer</h2>
+
             <input type='radio' name='opcao' value='0'/>
             <label for="cadastrar">Cadastrar novo pet</label><br/>
 
@@ -18,7 +26,9 @@
             <label for="listar">Listar todos os pets cadastrados</label><br/>
 
             <input type='radio'name='opcao' value='2'/>
-            <label for="buscar">Buscar dados do pet por nome</label><br/>
+            <label for="buscar">Buscar dados do pet por nome</label><br/><br/>
+
+            <input type='submit' />
         </form>
     </body>
 </html>
